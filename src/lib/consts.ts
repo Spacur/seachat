@@ -16,20 +16,20 @@ export const USER_IDS = {
 // notable servers (used for the home screen + other features)
 export const SPECIAL_SERVERS = {
   // the Revolt Lounge
-  lounge: {
-    id: '01F7ZSBSFHQ8TA81725KQCSDDP',
-    invite: 'Testers',
-  },
+  //lounge: {
+  //  id: '01F7ZSBSFHQ8TA81725KQCSDDP',
+  //  invite: 'Testers',
+  //},
 
   // RVMob's support server
-  supportServer: {
-    id: '01FKES1VJN27SVV4QJX82ZS3ME',
-    invite: 'ZFGGw6ry',
-  },
+  //supportServer: {
+  //  id: '01FKES1VJN27SVV4QJX82ZS3ME',
+  //  invite: 'ZFGGw6ry',
+  //},
 };
 
 // default API URL - when support for other instances is added, this will be the default one
-export const DEFAULT_API_URL = 'https://api.revolt.chat'; // TODO: switch to https://revolt.chat/api when it's available
+export const DEFAULT_API_URL = 'https://chat.seaspark.xyz/api'; // TODO: switch to https://revolt.chat/api when it's available
 
 // default max side param - used to specify the size of images
 export const DEFAULT_MAX_SIDE = '128';
@@ -39,10 +39,11 @@ export const DEFAULT_MESSAGE_LOAD_COUNT = 50;
 
 // server invite paths for the official instance
 export const INVITE_PATHS = [
-  'app.revolt.chat/invite',
-  'nightly.revolt.chat/invite',
-  'local.revolt.chat/invite',
-  'rvlt.gg',
+  'chat.seaspark.xyz',
+  // 'app.revolt.chat/invite',
+  // 'nightly.revolt.chat/invite',
+  // 'local.revolt.chat/invite',
+  // 'rvlt.gg',
 ];
 
 // regex to find server invites
@@ -55,9 +56,10 @@ export const RE_INVITE = new RegExp(
 
 // bot invite paths for the official instance
 export const BOT_INVITE_PATHS = [
-  'app.revolt.chat/bot',
-  'nightly.revolt.chat/bot',
-  'local.revolt.chat/bot',
+  'chat.seaspark.xyz/bot',
+  // 'app.revolt.chat/bot',
+  // 'nightly.revolt.chat/bot',
+  // 'local.revolt.chat/bot',
 ];
 
 // regex to find bot invites
@@ -69,7 +71,7 @@ export const RE_BOT_INVITE = new RegExp(
 );
 
 // link to discover, used by the invite finder to ignore these links
-export const DISCOVER_URL = 'rvlt.gg/discover';
+// export const DISCOVER_URL = 'rvlt.gg/discover';
 
 // link to the revolt wiki, per above
 export const WIKI_URL = 'wiki.rvlt.gg';
